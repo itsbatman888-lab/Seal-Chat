@@ -1,0 +1,10 @@
+{
+  "short_name": "Sealchat",
+  "name": "Sealchat - Private Messenger",
+  "start_url": "/",
+  "background_color": "#0B0F19",
+  "theme_color": "#0B0F19",
+  "display": "standalone",
+  "orientation": "portrait"
+}
+
