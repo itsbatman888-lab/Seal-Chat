@@ -1,10 +1,21 @@
 {
   "short_name": "Sealchat",
   "name": "Sealchat - Private Messenger",
+  "icons": [
+    {
+      "src": "sealchat-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "sealchat-icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
   "start_url": "/",
   "background_color": "#0B0F19",
-  "theme_color": "#0B0F19",
+  "theme_color": "#FFD700",
   "display": "standalone",
   "orientation": "portrait"
 }
-
