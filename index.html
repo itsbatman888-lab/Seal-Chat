@@ -119,14 +119,12 @@
 
         // Google Authentication Logic
         async function loginWithGoogle() {
-            const { data, error } = await supabase.auth.signInWithOAuth({
-                provider: 'google',
-                options: {
-                    redirectTo: 'https://itsbatman888-lab.github.io/Seal-Chat/' // Automatically brings them back to your site
-                }
-            });
-            if (error) console.error("Login failed:", error.message);
-        }
+    const { data, error } = await supabase.auth.signInWithOAuth({
+        provider: 'google'
+    });
+    if (error) console.error("Login failed:", error.message);
+}
+ // Automatically brings them back to your site
 
         // check if the user is already signed in on page load
         async function checkUser() {
