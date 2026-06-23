@@ -128,7 +128,7 @@
             if (error) console.error("Login failed:", error.message);
         }
 
-        // Check if the user is already signed in on page load
+        // check if the user is already signed in on page load
         async function checkUser() {
             const { data: { session } } = await supabase.auth.getSession();
             if (session) {
